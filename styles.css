@@ -198,19 +198,25 @@ body {
     bottom: 0;
 }
 
-@media (max-width: 2000px){
+@media (max-width: 1500px){
     .ground {
         height: 150px;
+    }
+    .sunflower{
+        height: 85px;
     }
 }
 
 @media (max-width: 1000px){
     .ground {
-        height: 130px;
+        height: 100px;
     }
 
     .letter-form {
         width: 350px;
         top: 8%;
+    }
+    .sunflower{
+        height: 20px;
     }
 }
