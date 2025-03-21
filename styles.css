@@ -43,6 +43,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 100%;
 }
 
 .sunflower {
@@ -192,7 +193,7 @@ body {
 
 .ground {
     position: fixed;
-    width: 100%;
+    width: 150%;
     height: 210px;
     background-color: #8B4513;
     bottom: 0;
@@ -210,12 +211,21 @@ body {
 
 @media (max-width: 1000px){
     .ground {
-        height: 100px;
+        height: 130px;
     }
 
     .letter-form {
         width: 350px;
         top: 8%;
+    }
+    .sunflower{
+        height: 20px;
+    }
+}
+
+@media (max-width: 800px){
+    .ground {
+        height: 50px;
     }
     .sunflower{
         height: 20px;
