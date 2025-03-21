@@ -208,4 +208,9 @@ body {
     .ground {
         height: 130px;
     }
+
+    .letter-form {
+        width: 350px;
+        top: 8%;
+    }
 }
