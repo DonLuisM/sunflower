@@ -206,9 +206,9 @@ body {
     z-index: 1;
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1440px) {
     .ground {
-        height: 180px;
+        height: 210px;
     }
     .container {
         padding-bottom: 20px;
