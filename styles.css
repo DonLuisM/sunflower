@@ -206,7 +206,25 @@ body {
     z-index: 1;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1500px){
+    .ground {
+        height: 240px;
+    }
+
+    .container {
+        padding-bottom: 20px;
+    }
+
+    .letter-form {
+        width: 700px;
+    }
+    
+    .letter {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 1440px) {
     .ground {
         height: 220px;
     }
