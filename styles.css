@@ -190,14 +190,19 @@ body {
     transform: rotate(-20deg);
 }
 
-.ground {
-    position: fixed;
+.ground-container {
+    position: relative;
     width: 100%;
-    height: 210px;
+    height: 210px; /* Ajusta esto si es necesario */
+}
+
+.ground {
+    position: absolute;
+    width: 100%;
+    height: 100%;
     background-color: #8B4513;
     bottom: 0;
 }
-
 @media (max-width: 1500px){
     .ground {
         height: 150px;
