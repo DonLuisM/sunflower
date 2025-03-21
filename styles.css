@@ -200,7 +200,7 @@ body {
 .ground {
     position: fixed;
     width: 100%;
-    height: 210px;
+    height: 150px;
     background-color: #8B4513;
     bottom: 0;
     left: 0;
@@ -209,7 +209,7 @@ body {
 
 @media (max-width: 1500px){
     .ground {
-        height: 150px;
+        height: 100px;
     }
     .container {
         padding-bottom: 20px;
@@ -220,7 +220,7 @@ body {
 }
 @media (max-width: 1000px){
     .ground {
-        height: 130px;
+        height: 80px;
     }
 
     .letter-form {
@@ -234,7 +234,7 @@ body {
 
 @media (max-width: 800px){
     .ground {
-        height: 50px;
+        height: 70px;
     }
     .sunflower{
         height: 20px;
