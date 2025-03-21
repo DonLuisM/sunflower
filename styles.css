@@ -214,9 +214,6 @@ body {
     .container {
         padding-bottom: 20px;
     }
-    .sunflower-plant {
-        height: 300px;
-    }
 }
 @media (max-width: 1000px){
     .ground {
@@ -227,16 +224,10 @@ body {
         width: 350px;
         top: 8%;
     }
-    .sunflower{
-        height: 20px;
-    }
 }
 
 @media (max-width: 800px){
     .ground {
         height: 30px;
-    }
-    .sunflower{
-        height: 20px;
     }
 }
