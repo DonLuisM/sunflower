@@ -7,12 +7,12 @@
 body {
     background-color: rgba(135, 206, 235, 0.7);
     overflow: hidden;
-    touch-action: none;
     height: 100%;
+    width: 100%;
 }
 
 .letter-form {
-    position: absolute;
+    position: fixed;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -22,6 +22,7 @@ body {
     border-radius: 2em 3em;
     width: 400px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
 }
 
 .letter {
@@ -108,67 +109,67 @@ body {
 }
 
 .five {
-    transform: rotate(60deg);
-}
-
-.six {
     transform: rotate(80deg);
 }
 
-.seven {
+.six {
     transform: rotate(100deg);
 }
 
-.eight {
+.seven {
     transform: rotate(120deg);
 }
 
-.nine {
+.eight {
     transform: rotate(140deg);
 }
 
-.ten {
+.nine {
     transform: rotate(160deg);
 }
 
-.eleven {
+.ten {
     transform: rotate(180deg);
 }
 
-.twelve {
+.eleven {
     transform: rotate(200deg);
 }
 
-.thirteen {
+.twelve {
     transform: rotate(220deg);
 }
 
-.fourteen {
+.thirteen {
     transform: rotate(240deg);
 }
 
-.fifteen {
+.fourteen {
     transform: rotate(260deg);
 }
 
-.sixteen {
+.fifteen {
     transform: rotate(280deg);
 }
 
-.seventeen {
+.sixteen {
     transform: rotate(300deg);
 }
 
-.eighteen {
+.seventeen {
     transform: rotate(320deg);
 }
 
-.nineteen {
+.eighteen {
     transform: rotate(340deg);
 }
 
-.twenty {
+.nineteen {
     transform: rotate(360deg);
+}
+
+.twenty {
+    transform: rotate(380deg);
 }
 
 .stem {
@@ -198,7 +199,7 @@ body {
 
 .ground {
     position: fixed;
-    width: 150%;
+    width: 100%;
     height: 210px;
     background-color: #8B4513;
     bottom: 0;
