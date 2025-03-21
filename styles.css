@@ -6,6 +6,7 @@
 
 body {
     background-color: rgba(135, 206, 235, 0.7);
+    overflow-x: hidden;
 }
 
 .letter-form {
@@ -48,7 +49,7 @@ body {
 }
 
 .sunflower {
-    position: relative;
+    position: absolute;
     width: 200px;
     height: 85px;
 }
@@ -66,11 +67,12 @@ body {
 }
 
 .center::before {
+    content: "";
     position: absolute;
     width: 100%;
     height: 100%;
     background-image: radial-gradient(#000 1px, transparent 2px);
-    background-size: a px 8px;
+    background-size: 8px 8px;
     opacity: 0.7;
 }
 
@@ -199,17 +201,20 @@ body {
     background-color: #8B4513;
     bottom: 0;
     left: 0;
+    z-index: 1;
 }
 
 @media (max-width: 1500px){
     .ground {
         height: 150px;
     }
-    .sunflower{
-        height: 85px;
+    .container {
+        padding-bottom: 20px;
+    }
+    .sunflower-plant {
+        height: 300px;
     }
 }
-
 @media (max-width: 1000px){
     .ground {
         height: 130px;
