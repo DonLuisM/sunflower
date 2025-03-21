@@ -6,7 +6,9 @@
 
 body {
     background-color: rgba(135, 206, 235, 0.7);
-    overflow-x: hidden;
+    overflow: hidden;
+    touch-action: none;
+    height: 100%;
 }
 
 .letter-form {
